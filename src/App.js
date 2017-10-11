@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +6,44 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <ul class="headerContent">
+            <li>Class List</li>
+            <li>Departments</li>
+            <li>About Us</li>
+          </ul>
+          <div class="profile"></div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div class= "body">
+          <div class="bg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut arcu urna. Suspendisse gravida felis non odio efficitur rhoncus. Etiam varius, erat a elementum sagittis, sem tellus fermentum mauris, in ultricies dolor nulla quis enim. Sed ac est sed felis suscipit consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis, nisl vel porta rhoncus, nibh mi aliquam elit, at scelerisque justo felis at urna. In suscipit posuere nulla, eu tristique tellus bibendum id. Curabitur pretium, enim eget posuere malesuada, lorem nunc scelerisque massa, in tincidunt ipsum ex sit amet turpis. Pellentesque id molestie odio, ut bibendum lorem. Maecenas dictum libero id nibh congue dapibus. Aliquam quis consectetur dui. Aliquam nec fringilla magna. Morbi in laoreet eros. Mauris in fringilla massa, sit amet lobortis odio. Integer et turpis velit. Vivamus eget sem sed sapien accumsan rhoncus.
+
+Vivamus maximus velit arcu, eu interdum nisi dictum in. Aliquam erat volutpat. Etiam a tempus justo. Suspendisse lobortis ex sed orci porta sollicitudin. Ut sodales massa quis blandit semper. Sed fringilla lobortis velit, sed eleifend nisi luctus vel. Pellentesque eget arcu quis est tempor dignissim eget vitae sem. Nam non sem in lorem maximus dapibus at eget dolor. In dignissim sem in libero tristique pretium. Phasellus sed convallis augue. Pellentesque justo metus, dignissim ac iaculis sit amet, suscipit quis nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Morbi dignissim massa sit amet ipsum vehicula, ac cursus mi semper. Donec eget tempor ipsum, quis pretium ipsum. In viverra turpis malesuada enim condimentum, non iaculis lectus efficitur. Maecenas quis nunc neque. Quisque ultricies sem et rhoncus porttitor. Phasellus mollis urna ante, tincidunt sollicitudin purus pharetra a. Curabitur commodo ipsum eu sapien ultrices dignissim. Ut sodales magna nec velit consequat, quis malesuada dui sodales. Proin convallis mauris eu rutrum ornare.
+
+Aenean sodales, felis eget ultrices ultricies, ipsum tortor scelerisque erat, non mollis eros dolor vel mauris. Suspendisse nec dui id justo egestas pulvinar. Integer ex arcu, auctor eu lorem vehicula, pharetra tincidunt magna. Quisque iaculis aliquam nisl nec imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas volutpat, eros id interdum blandit, odio tellus pellentesque metus, ut placerat purus dui in odio. Suspendisse ex neque, hendrerit a nunc non, fermentum egestas ipsum.
+
+Vestibulum quis aliquet eros, ut volutpat justo. Maecenas at odio at lectus accumsan semper ac id elit. Duis euismod lorem quis lacus venenatis, et eleifend dolor gravida. Vestibulum vitae luctus eros. Praesent eget tincidunt turpis, vitae semper dolor. Aliquam erat volutpat. Duis accumsan lectus augue, vel posuere metus dignissim at. In scelerisque arcu dui, laoreet semper ante suscipit et. Donec ultricies malesuada sodales. Vestibulum sit amet nisi id diam convallis tincidunt ac at diam. Etiam sagittis lorem ac ipsum euismod ultricies. Nulla facilisi. Vivamus massa elit, sagittis sit amet placerat condimentum, tincidunt et lorem. Curabitur congue mauris nisi, eget pretium orci finibus quis. Morbi a orci vel nulla porttitor volutpat. Mauris dignissim cursus nibh ut convallis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut arcu urna. Suspendisse gravida felis non odio efficitur rhoncus. Etiam varius, erat a elementum sagittis, sem tellus fermentum mauris, in ultricies dolor nulla quis enim. Sed ac est sed felis suscipit consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis, nisl vel porta rhoncus, nibh mi aliquam elit, at scelerisque justo felis at urna. In suscipit posuere nulla, eu tristique tellus bibendum id. Curabitur pretium, enim eget posuere malesuada, lorem nunc scelerisque massa, in tincidunt ipsum ex sit amet turpis. Pellentesque id molestie odio, ut bibendum lorem. Maecenas dictum libero id nibh congue dapibus. Aliquam quis consectetur dui. Aliquam nec fringilla magna. Morbi in laoreet eros. Mauris in fringilla massa, sit amet lobortis odio. Integer et turpis velit. Vivamus eget sem sed sapien accumsan rhoncus.
+
+Vivamus maximus velit arcu, eu interdum nisi dictum in. Aliquam erat volutpat. Etiam a tempus justo. Suspendisse lobortis ex sed orci porta sollicitudin. Ut sodales massa quis blandit semper. Sed fringilla lobortis velit, sed eleifend nisi luctus vel. Pellentesque eget arcu quis est tempor dignissim eget vitae sem. Nam non sem in lorem maximus dapibus at eget dolor. In dignissim sem in libero tristique pretium. Phasellus sed convallis augue. Pellentesque justo metus, dignissim ac iaculis sit amet, suscipit quis nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Morbi dignissim massa sit amet ipsum vehicula, ac cursus mi semper. Donec eget tempor ipsum, quis pretium ipsum. In viverra turpis malesuada enim condimentum, non iaculis lectus efficitur. Maecenas quis nunc neque. Quisque ultricies sem et rhoncus porttitor. Phasellus mollis urna ante, tincidunt sollicitudin purus pharetra a. Curabitur commodo ipsum eu sapien ultrices dignissim. Ut sodales magna nec velit consequat, quis malesuada dui sodales. Proin convallis mauris eu rutrum ornare.
+
+Aenean sodales, felis eget ultrices ultricies, ipsum tortor scelerisque erat, non mollis eros dolor vel mauris. Suspendisse nec dui id justo egestas pulvinar. Integer ex arcu, auctor eu lorem vehicula, pharetra tincidunt magna. Quisque iaculis aliquam nisl nec imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas volutpat, eros id interdum blandit, odio tellus pellentesque metus, ut placerat purus dui in odio. Suspendisse ex neque, hendrerit a nunc non, fermentum egestas ipsum.
+
+Vestibulum quis aliquet eros, ut volutpat justo. Maecenas at odio at lectus accumsan semper ac id elit. Duis euismod lorem quis lacus venenatis, et eleifend dolor gravida. Vestibulum vitae luctus eros. Praesent eget tincidunt turpis, vitae semper dolor. Aliquam erat volutpat. Duis accumsan lectus augue, vel posuere metus dignissim at. In scelerisque arcu dui, laoreet semper ante suscipit et. Donec ultricies malesuada sodales. Vestibulum sit amet nisi id diam convallis tincidunt ac at diam. Etiam sagittis lorem ac ipsum euismod ultricies. Nulla facilisi. Vivamus massa elit, sagittis sit amet placerat condimentum, tincidunt et lorem. Curabitur congue mauris nisi, eget pretium orci finibus quis. Morbi a orci vel nulla porttitor volutpat. Mauris dignissim cursus nibh ut convallis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut arcu urna. Suspendisse gravida felis non odio efficitur rhoncus. Etiam varius, erat a elementum sagittis, sem tellus fermentum mauris, in ultricies dolor nulla quis enim. Sed ac est sed felis suscipit consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis, nisl vel porta rhoncus, nibh mi aliquam elit, at scelerisque justo felis at urna. In suscipit posuere nulla, eu tristique tellus bibendum id. Curabitur pretium, enim eget posuere malesuada, lorem nunc scelerisque massa, in tincidunt ipsum ex sit amet turpis. Pellentesque id molestie odio, ut bibendum lorem. Maecenas dictum libero id nibh congue dapibus. Aliquam quis consectetur dui. Aliquam nec fringilla magna. Morbi in laoreet eros. Mauris in fringilla massa, sit amet lobortis odio. Integer et turpis velit. Vivamus eget sem sed sapien accumsan rhoncus.
+
+Vivamus maximus velit arcu, eu interdum nisi dictum in. Aliquam erat volutpat. Etiam a tempus justo. Suspendisse lobortis ex sed orci porta sollicitudin. Ut sodales massa quis blandit semper. Sed fringilla lobortis velit, sed eleifend nisi luctus vel. Pellentesque eget arcu quis est tempor dignissim eget vitae sem. Nam non sem in lorem maximus dapibus at eget dolor. In dignissim sem in libero tristique pretium. Phasellus sed convallis augue. Pellentesque justo metus, dignissim ac iaculis sit amet, suscipit quis nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Morbi dignissim massa sit amet ipsum vehicula, ac cursus mi semper. Donec eget tempor ipsum, quis pretium ipsum. In viverra turpis malesuada enim condimentum, non iaculis lectus efficitur. Maecenas quis nunc neque. Quisque ultricies sem et rhoncus porttitor. Phasellus mollis urna ante, tincidunt sollicitudin purus pharetra a. Curabitur commodo ipsum eu sapien ultrices dignissim. Ut sodales magna nec velit consequat, quis malesuada dui sodales. Proin convallis mauris eu rutrum ornare.
+
+Aenean sodales, felis eget ultrices ultricies, ipsum tortor scelerisque erat, non mollis eros dolor vel mauris. Suspendisse nec dui id justo egestas pulvinar. Integer ex arcu, auctor eu lorem vehicula, pharetra tincidunt magna. Quisque iaculis aliquam nisl nec imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas volutpat, eros id interdum blandit, odio tellus pellentesque metus, ut placerat purus dui in odio. Suspendisse ex neque, hendrerit a nunc non, fermentum egestas ipsum.
+
+Vestibulum quis aliquet eros, ut volutpat justo. Maecenas at odio at lectus accumsan semper ac id elit. Duis euismod lorem quis lacus venenatis, et eleifend dolor gravida. Vestibulum vitae luctus eros. Praesent eget tincidunt turpis, vitae semper dolor. Aliquam erat volutpat. Duis accumsan lectus augue, vel posuere metus dignissim at. In scelerisque arcu dui, laoreet semper ante suscipit et. Donec ultricies malesuada sodales. Vestibulum sit amet nisi id diam convallis tincidunt ac at diam. Etiam sagittis lorem ac ipsum euismod ultricies. Nulla facilisi. Vivamus massa elit, sagittis sit amet placerat condimentum, tincidunt et lorem. Curabitur congue mauris nisi, eget pretium orci finibus quis. Morbi a orci vel nulla porttitor volutpat. Mauris dignissim cursus nibh ut convallis.</div>
+          <div class="window"></div>
+        </div>
+
+
+
       </div>
     );
   }
