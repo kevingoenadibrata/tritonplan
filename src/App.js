@@ -13,19 +13,23 @@ class App extends Component {
           </ul>
           <div class="profile"></div>
         </header>
+
+
         <div class= "body">
           <div class="bg"></div>
+
           <div class="window">
+
             <div class="search-wrapper">
               <input type="text" placeholder="Search Courses" class="searchbar"></input>
               <div class= "search-button">Search</div>
             </div>
+
             <div class="window-content"></div>
+
           </div>
+
         </div>
-
-
-
       </div>
     );
   }

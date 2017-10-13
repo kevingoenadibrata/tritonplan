@@ -96,12 +96,12 @@
 textarea, input, button { outline: none; }
 
 .search-button{
-  padding: 5px 8px 5px 8px;
+  padding: 5px 10px 5px 10px;
   margin-top: 20px;
   display: inline;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.7em;
   width: 10%;
   background-color: #11BFAE;
   color: white;
