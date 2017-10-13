@@ -25,5 +25,30 @@ class App extends Component {
   }
 }
 
+//temp
+var obj;
+
+function object1(name, age, city){
+  this.name = name;
+  this.age = age;
+  this.city = city;
+}
+
+function createObject(name, age, city){
+  obj = new object1(name, age, city);
+}
+
+function httpReq(u, m, data){
+  fetch(u, {
+    method: m,
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data)
+  })
+}
+//
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
